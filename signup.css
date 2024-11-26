@@ -1,6 +1,11 @@
 body {
   display: flex;
   flex-direction: row;
+  background-color: #495049;
+}
+
+a {
+  color: aliceblue;
 }
 
 .bannerbox {
@@ -15,13 +20,15 @@ body {
 .banner {
   align-self: center;
   text-align: center;
-  background-color: rgba(43, 48, 43, 0.5);
+  background-color: #2b302b80;
   width: 100%;
+  margin-top: 30%;
 }
 
 .footer {
   position: absolute;
   bottom: 10px;
   align-self: center;
-  color: aliceblue;
+  color: #f0fff4;
+  font-size: 0.8rem;
 }
