@@ -1,3 +1,8 @@
+@font-face {
+  font-family: molot;
+  src: url(./font/Molot.otf);
+}
+
 body {
   display: flex;
   flex-direction: row;
@@ -90,6 +95,7 @@ button {
 }
 
 #bannertext {
+  font-family: molot;
   font-size: 3rem;
   color: #fff;
 }
