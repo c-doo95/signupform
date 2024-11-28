@@ -19,6 +19,21 @@ input {
   border-radius: 0.3em;
 }
 
+label {
+  color: #f0fff4;
+}
+
+button {
+  margin-left: 5%;
+  padding: 1em 3em;
+  background-color: #596D48;
+  border-radius: 0.8rem;
+  color: #f0fff4;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 0px 10px 15px #212421;
+}
+
 .bannerbox {
   display: flex;
   flex-direction: column;
@@ -50,6 +65,10 @@ input {
   font-size: 0.8rem;
 }
 
+.blurbs {
+  margin-left: 5%;
+}
+
 #formarea {
   background-color: #a8beaec9;
   box-shadow: 0px 10px 15px 0px #1f241fc9;
@@ -61,4 +80,10 @@ input {
 .field {
   display: flex;
   flex-direction: column;
+}
+
+#signin {
+  margin-left: 5%;
+  font-size: 0.8rem;
+  color: #f0fff4;
 }
